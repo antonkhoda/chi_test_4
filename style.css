@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+body,
+button,
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #af2f2f26;
+}
+
+.mainBlock{
+    box-shadow: 0px 0px 30px 0px rgba(34, 60, 80, 0.2);
+}
+
+input{
+    width: 100%;
+    padding: 0 20px;
+    border: 1px solid #eceef0;
+    line-height: 50px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 1px solid #eceef0;
+    border-top: none;
+}
+
+.item span{
+    width: 80%;
+    text-align: left;
+}
+
+.changeStatusItem{
+    width: 30px;
+    height: 30px;
+}
+
+.deleteItem{
+    width: 30px;
+    height: 30px;
+    background: url(./img/cross.svg) no-repeat center;
+    background-size: 50%;
+}
+
+.itemTextChecked{
+    color: #d9d9d9;
+    text-decoration: line-through;
+}
+
+.itemInfo{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #eceef0;
+    border-top: none;
+}
+
+.displayNone{
+    display: none;
+}
