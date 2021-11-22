@@ -1,7 +1,6 @@
 import * as contriller from "./modules/controller.js";
 
 let sourceUrl = "http://localhost:3000/comments";
-let input = document.querySelector(".js-mainInput");
 let itemBlock = document.querySelector(".js-itemBlock");
 let itemInfo = document.querySelector(".itemInfo");
 let form = document.forms.mainForm;
