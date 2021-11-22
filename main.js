@@ -4,11 +4,13 @@ let sourceUrl = "http://localhost:3000/comments";
 let input = document.querySelector(".js-mainInput");
 let itemBlock = document.querySelector(".js-itemBlock");
 let itemInfo = document.querySelector(".itemInfo");
+let form = document.forms.mainForm;
 
 contriller.getAllItems(sourceUrl, itemInfo, itemBlock);
 
-input.addEventListener("change", (event) => {
-    contriller.addNewItem(sourceUrl, event.target.value);
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  contriller.addNewItem(sourceUrl, form.mainFormText.value);
 });
 
 itemBlock.addEventListener("click", (event) => {

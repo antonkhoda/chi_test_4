@@ -13,11 +13,11 @@
     <div class="wrapper">
       <h1>todos</h1>
       <div class="mainBlock">
-        <input
-          type="text"
-          placeholder="What needs to be done?"
-          class="js-mainInput"
-        />
+        <form id="mainForm">
+          <input type="text" placeholder="What needs to be done?" name="mainFormText"/>
+          <input type="submit" value="">
+        </form>
+  
         <div class="js-itemBlock"></div>
         <div class="itemInfo js-itemInfo"></div>
       </div>

@@ -86,3 +86,7 @@ input{
 .displayNone{
     display: none;
 }
+
+input[type = submit]{
+    display: none;
+}
