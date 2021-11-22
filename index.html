@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AK To-Do List</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
-</head>
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <h1>todos</h1>
-        <div class="mainBlock">
-            <input type="text" placeholder="What needs to be done?" class="mainInput" />
-            <div class="itemBlock"></div>
-            <div class="itemInfo"></div>
-        </div>
+      <h1>todos</h1>
+      <div class="mainBlock">
+        <input
+          type="text"
+          placeholder="What needs to be done?"
+          class="js-mainInput"
+        />
+        <div class="js-itemBlock"></div>
+        <div class="itemInfo js-itemInfo"></div>
+      </div>
     </div>
 
-    <script src="./main.js"></script>
-</body>
-
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
